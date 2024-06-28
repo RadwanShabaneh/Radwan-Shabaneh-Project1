@@ -1,0 +1,378 @@
+body {
+    font-family: Inter;
+    width: 1440px;
+    height: auto;
+    letter-spacing: 0.2 px;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #565365;
+
+}
+h2 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 89.6px;
+    color: #0E0A23;
+}
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+
+}
+h5 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 89.6px;
+    color: white;
+}
+/*Header*/
+.container1 {
+    display: flex;
+    align-items: center;
+    width: Fixed (1170)px;
+    height: Hug (50px)px;
+    justify-content: space-between;
+    padding-left: 135px;
+    padding-top: 56px;
+    padding-right: 135px;
+}
+.title {
+    color: #F01159;
+    font-weight: 700;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+.inline {
+    display: inline-block;
+}
+
+button {
+    margin: 5px;
+    border: none;
+    font-size: 16px;
+    line-height: 25.6px;
+    text-align: left;
+}
+.button1 {
+    color: #F01159;
+    font-weight: 400;
+}
+.button2, .button3, .button4 {
+    color: #565365;
+    font-weight: 400;
+}
+.button5 {
+    color: #003458;
+    font-weight: 700;
+}
+
+
+/*First part*/
+.container2 {
+    display: flex;
+    width: Fixed (1,440px)px;
+    height: Hug (684px)px;
+    align-items: center;
+}
+
+.content-left{
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    left: 119px;
+}
+.Text1{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 93.6px;
+    text-align: left;
+    color: white;
+    display: inline-block;
+}
+#line1 {
+    border: solid;
+    border-width: 13px;
+    background-color: #F01159;
+    border-color: #F01159;
+}
+#line2 {
+    border: solid;
+    border-width: 13px;
+    background-color: #F01159;
+    border-color: #F01159;
+    width: 460px;
+}
+#line3 {
+    border: solid;
+    background-color: #F01159;
+    border-color: #F01159;
+    border-width: 13px;
+    width: 365px;
+}
+.Text3 {
+    line-height: 25.6px;
+    text-align: left;
+}
+.button6 {
+    background-color: #003458;
+    color: white;
+    font-weight: 700;
+    width: Hug (165px)px;
+    height: Hug (58px)px;
+    top: 682px;
+    left: 135px;
+    padding: 16px 24px 16px 24px;
+    border: 1px;
+}
+.button7 {
+    color: #0E0A23;
+    font-weight: 700;
+    padding: 16px 24px 16px 24px;
+    border: 1px;
+}
+.Image1{
+    padding-right: 135px;
+}
+
+
+/*Second Part*/
+.container3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Video {
+    position: relative;
+}
+
+#Image2 {
+    display: block;
+}
+
+#play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+
+.container4 {
+    display: flex;
+    padding-left: 235px;
+    padding-right: 235px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subcont {
+    display: flex;
+    flex-direction: column;
+    height: 118px;  
+}
+
+hr {
+    width: 970px;
+    border: 1px solid #CCD6DE
+}
+
+
+/*Third Part*/
+
+.container5 {
+    display: flex;
+    padding-left: 135px;
+    padding-right: 135px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#See-All-Awards {
+    background-color: #003458;
+    color: white;
+    font-weight: 700;
+    width: Hug (165px)px;
+    height: Hug (58px)px;
+    padding: 16px 24px 16px 24px;
+    border: 1px;
+}
+
+.boxes {
+    width: 570px;
+    height: 562px;
+    position: relative;
+}
+
+#box1 {
+    width: 270px;
+    height: 246px;
+    gap: 24px;
+    border: 1px solid #E6E6E9;
+    position: absolute;
+    Top: 0px;
+    Left: 0px;
+
+}
+
+#box2 {
+    width: 270px;
+    height: 246px;
+    gap: 24px;
+    border: 1px solid #E6E6E9;
+    position: absolute;
+    Top: 40px;
+    right: 0px;
+}
+
+#box3 {
+    width: 270px;
+    height: 246px;
+    gap: 24px;
+    border: 1px solid #E6E6E9;
+    position: absolute;
+    Bottom: 40px;
+    Left: 0px;
+}
+
+#box4 {
+    width: 270px;
+    height: 246px;
+    gap: 24px;
+    border: 1px solid #E6E6E9;
+    position: absolute;
+    Bottom: 0px;
+    Right: 0px;
+}
+.icon {
+    padding-top: 36px;
+    padding-left: 24px;
+}
+.Award-name {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.Award-desc {
+    padding-left: 24px;
+    padding-right: 24px;
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px;
+    color: #565365;
+}
+
+/*Fourth part*/
+.container6 {
+    width: 1440px;
+    display: flex;
+    padding-left: 135px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.topleft {
+    align-items: flex-start;
+}
+.globe {
+    align-items: flex-end;
+}
+.bot {
+    display: flex;
+    height: 534px;
+}
+.botright {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.points {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.point-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+.point-item img {
+    width: 32px;
+    height: 32px;
+}
+.point-item p {
+    margin: 0;
+}
+#quals {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    border-top: 0px;
+}
+
+
+/*Fifth Part*/
+.container7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.out {
+    width: 770px;
+    height: 180px;
+    text-align: center;
+}
+.points2 {
+    display: flex;
+    flex-direction: row;
+    gap: 72px;
+}
+
+/*Final Part (Footer)*/
+footer {
+    background-color: #001523;
+}
+.footer1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer2 {
+    width: 970px;
+    height: 234px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 235px;
+    padding-right: 235px;
+    padding-bottom: 180px;
+}
+.footer22 {
+    color: white;
+    display: flex;
+    gap: 110px;
+    margin-top: 0px;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.copyrights {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
